@@ -8,7 +8,7 @@ import pandas as pd
 with open('intents.json') as file:
     intents = json.load(file)
 
-df = pd.read_csv('terengganuhotels.csv')
+df = pd.read_csv('terengganuhotels.csv', encoding='latin1')
 
 BG_GRAY = '#ABB2B9'
 BG_COLOR = '#17202A'
