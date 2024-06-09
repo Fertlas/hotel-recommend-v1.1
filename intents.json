@@ -1,0 +1,39 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hello", "Hi", "Holla","Hi :)"],
+     "responses": ["Hello, Hi", "Hey!"],
+     "context_set": ""
+    },
+    {"tag": "salam",
+     "patterns": ["Assalamualaikum", "Assalam", "Salam"],
+     "responses": ["Waalaikumsalam brother/sister.", "Wasalam. Hope you doing well."],
+     "context_set": ""
+    },
+    {"tag": "health",
+     "patterns": ["How are you?", "How are you doing?", "How is your health?"],
+     "responses": ["I am doing well. Thank you for asking.", "I am fine. How about you?"],
+     "context_set": ""
+     },
+    {"tag": "goodbye",
+     "patterns": ["Goodbye", "See you again!", "Hope we meet again.", "Bye"],
+     "responses": ["Farewell, Bye, see you again!", "See you later soon!"],
+     "context_set": ""
+    },
+    {"tag": "thank you",
+     "patterns": ["Thank you", "Thank you very much", "Thanks"],
+     "responses": ["You are welcome."],
+     "context_set": ""
+    },
+    {"tag": "recommend_hotel",
+    "patterns": ["Can you recommend a hotel?", "I need a hotel", "Find a hotel for me"],
+    "responses": ["Sure, but let me ask a few question first?", "Of course, but you need to answer these questions first before we proceed."], 
+    "questions": ["What is your budget for the hotel? (Give a range) :","What district you prefer? :", "Any specific amenities you are looking for? :"],
+    "context_set": ""
+   },
+    {"tag": "bot_name",
+     "patterns": ["What is your name?", "What should I call you?", "What's your name?"],
+     "responses":["My name is MumeiBot.", "You can call me MumeiBot","The name MumeiBot is given."],
+     "context_set": ""
+    }
+]
+}
