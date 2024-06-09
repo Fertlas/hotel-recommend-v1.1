@@ -29,7 +29,9 @@ def train_nlp_model(intents_file):
     y = np.array(labels)
     
     clf = LogisticRegression()
+    print("Starting Training...")
     clf.fit(X, y)
+    print("Training Completed!")
     
     with open('model.pkl', 'wb') as model_file:
         pickle.dump(clf, model_file)
